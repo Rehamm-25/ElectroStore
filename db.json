@@ -19,6 +19,6 @@
       "quantity": 3,
       "id": "r7SvapRchFQ"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
+Fix db.json for my-json-server
