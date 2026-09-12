@@ -1,0 +1,70 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap');
+
+:root {
+
+  /* ===== Light Mode (Default) ===== */
+
+  /* Backgrounds */
+  --bg-page: #fafafa;
+  --bg-surface: #ffffff;
+  --bg-surface-alt: #f4f4f5;
+
+  /* Text */
+  --text-primary: #18181b;
+  --text-secondary: #71717a;
+  --text-heading: #0f172a;
+
+  /* Accent */
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --accent-soft: #eff6ff;
+
+  /* Borders */
+  --border-color: #e4e4e7;
+  --border-hover: #60a5fa;
+
+  /* Status */
+  --success: #16a34a;
+  --danger: #dc2626;
+
+  /* Typography */
+  --font-main: 'Plus Jakarta Sans', sans-serif;
+
+  /* Motion */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.2s ease;
+
+}
+
+
+/* ===== Dark Mode ===== */
+
+[data-theme="dark"] {
+
+  --bg-page: #0b1220;
+  --bg-surface: #0f172a;
+  --bg-surface-alt: #1e293b;
+
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-heading: #f8fafc;
+
+  --accent: #60a5fa;
+  --accent-hover: #93c5fd;
+  --accent-soft: #1e293b;
+
+  --border-color: #1e293b;
+  --border-hover: #60a5fa;
+
+}
+
+
+/* ===== Global Reset ===== */
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  transition: background-color var(--transition-base), color var(--transition-base);
+}

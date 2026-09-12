@@ -1,0 +1,24 @@
+{
+  "wishlist": [
+    {
+      "productId": 3,
+      "id": "PcvbnNz2MhI"
+    },
+    {
+      "productId": 4,
+      "id": "-vSt3Z6uuP8"
+    },
+    {
+      "productId": 6,
+      "id": "bRb8E6OfLS8"
+    }
+  ],
+  "cart": [
+    {
+      "productId": 1,
+      "quantity": 3,
+      "id": "r7SvapRchFQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
